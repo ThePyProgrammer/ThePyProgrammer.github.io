@@ -1,2 +1,2 @@
-# ThePyProgrammer.github.io
+# ThePyProgrammer
 My own personal website
