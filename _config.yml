@@ -21,11 +21,20 @@ projects:
   # sort_by options:
   #   - pushed
   #   - stars
+  limit: 9
   exclude:
     archived: true
     forks: true
     projects:
      - thepyprogrammer.github.io
+     - forest-pypi
+     - HappyBirthdayApp
+     - StateChange
+     - AndroidIntroduction
+     - NUSHiEventsDB
+     - ArXiver
+     - NavigationTemplate
+     - ThePyProgrammer
 
 social_media:
   # behance: your_username
