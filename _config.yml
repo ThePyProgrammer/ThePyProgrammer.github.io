@@ -21,7 +21,7 @@ projects:
   # sort_by options:
   #   - pushed
   #   - stars
-  limit: 20
+  limit: 30
   exclude:
     archived: true
     forks: true
@@ -51,8 +51,8 @@ social_media:
   # twitter: your_username
   # unsplash: your_username
   # vk: your_username
-  # website: http://your_website_url
-  # youtube: your_username
+  website: https://thepyprogrammer.github.io/
+  youtube: UCkzJanTxf9EBtenp5XYMglQ
 
 topics:
   - name: Python
