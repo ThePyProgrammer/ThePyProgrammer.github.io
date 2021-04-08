@@ -25,7 +25,7 @@ projects:
     archived: true
     forks: true
     projects:
-    # - repo-name
+     - thepyprogrammer.github.io
 
 social_media:
   # behance: your_username
