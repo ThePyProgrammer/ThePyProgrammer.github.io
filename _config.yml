@@ -35,6 +35,11 @@ projects:
      - ArXiver
      - NavigationTemplate
      - ThePyProgrammer
+     - makansg-cli
+     - makansg-gui
+     - GaitAnalyserAlgorithms
+     - ms-android-helper
+     - StudentRandomizer
 
 social_media:
   # behance: your_username
