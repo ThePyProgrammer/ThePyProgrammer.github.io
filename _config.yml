@@ -61,27 +61,27 @@ social_media:
 
 topics:
   - name: Python
-    web_url: https://github.com/topics/python
+    web_url: https://github.com/ThePyProgrammer?tab=repositories&q=&type=&language=python
     image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/python/python.png
 
   - name: Jupyter Notebook
-    web_url: https://github.com/topics/jupyter-notebook
+    web_url: https://github.com/ThePyProgrammer?tab=repositories&q=&type=&language=jupyter-notebook
     image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/jupyter-notebook/jupyter-notebook.png
 
   - name: Matlab Octave
-    web_url: https://github.com/topics/matlab
+    web_url: https://github.com/ThePyProgrammer?tab=repositories&q=&type=&language=matlab
     image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/matlab/matlab.png
 
   - name: Kotlin
-    web_url: https://github.com/topics/kotlin
+    web_url: https://github.com/ThePyProgrammer?tab=repositories&q=&type=&language=kotlin
     image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/kotlin/kotlin.png
 
   - name: Java
-    web_url: https://github.com/topics/java
+    web_url: https://github.com/ThePyProgrammer?tab=repositories&q=&type=&language=java
     image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/java/java.png
 
   - name: Android
-    web_url: https://github.com/topics/android
+    web_url: https://github.com/ThePyProgrammer?tab=repositories&q=&type=&language=kotlin
     image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/android/android.png
 
   - name: JavaScript
@@ -89,7 +89,7 @@ topics:
     image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png
 
   - name: HTML
-    web_url: https://github.com/topics/html
+    web_url: https://github.com/ThePyProgrammer?tab=repositories&q=&type=&language=html
     image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png
 
   - name: Markdown
