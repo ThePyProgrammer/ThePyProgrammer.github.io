@@ -42,22 +42,22 @@ projects:
      - pc-practical
 
 social_media:
+  website: https://thepyprogrammer.github.io/
+  youtube: channel/UCkzJanTxf9EBtenp5XYMglQ
+  medium: thepyprogrammer
+  stackoverflow: 11511370
+  hackerrank: ThePyProgrammer
   # behance: your_username
   # dribbble: your_username
   # facebook: your_username
-  # hackerrank: your_username
   # instagram: your_username
   # keybase: your_username
   # linkedin: your_username
   # mastodon: your_username
-  # medium: your_username
-  stackoverflow: 11511370
   # telegram: your_username
   # twitter: your_username
   # unsplash: your_username
   # vk: your_username
-  website: https://thepyprogrammer.github.io/
-  youtube: channel/UCkzJanTxf9EBtenp5XYMglQ
 
 topics:
   - name: Python
