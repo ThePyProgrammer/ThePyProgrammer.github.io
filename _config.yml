@@ -17,10 +17,7 @@ defaults:
       layout: "post"
 
 projects:
-  # sort_by: pushed
-  sort_by options:
-     - stars
-     - pushed
+  sort_by: stars
   limit: 30
   exclude:
     archived: true
@@ -40,6 +37,9 @@ projects:
      - GaitAnalyserAlgorithms
      - ms-android-helper
      - StudentRandomizer
+     - Kt2Html
+     - ble-android-helper
+     - pc-practical
 
 social_media:
   # behance: your_username
@@ -62,7 +62,7 @@ social_media:
 topics:
   - name: Python
     web_url: https://github.com/topics/python
-    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/python/python.png
+    image_url: https://sololearnuploads.azureedge.net/uploads/courses/1073.png
 
   - name: Jupyter Notebook
     web_url: https://github.com/topics/jupyter-notebook
