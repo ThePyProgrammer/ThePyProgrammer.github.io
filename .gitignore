@@ -5,3 +5,6 @@ _site/
 Gemfile.lock
 **/.ruby-version
 node_modules/
+
+.jekyll-metadata
+assets/bundle.js
