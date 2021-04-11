@@ -2,7 +2,7 @@
     width: 100%;
     overflow: auto;
     background: #ffffff;
-    @extend %vertical-rhythm;
+    @extend %vertical-rhythm !optional;
 
     .highlighter-rouge & {
       background: #eef;
