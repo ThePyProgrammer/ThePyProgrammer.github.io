@@ -1,6 +1,8 @@
 layout: sidebar
 style: dark
 
+repository: henry/henrydf.github.io
+
 plugins:
   - jekyll-octicons
   - jekyll-github-metadata
