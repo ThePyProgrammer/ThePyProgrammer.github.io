@@ -6,7 +6,10 @@ import { render } from 'react-dom';
 class App extends Component {
     render() {
         return (
-            <Hello />
+            <div>
+                <h1>Hello</h1>
+                <Hello />
+            </div>
         )
     }
 }
