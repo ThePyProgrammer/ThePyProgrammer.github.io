@@ -1,4 +1,4 @@
-# My Portfolio
+# ThePyProgrammer
 
-This is my portfolio:
-- https://thepyprogrammer.github.io/MyPortfolio/#
+This is my own website:
+- https://thepyprogrammer.github.io/#
