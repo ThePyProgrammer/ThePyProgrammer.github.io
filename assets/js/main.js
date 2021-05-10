@@ -78,6 +78,13 @@
     })
   }
 
+  let code = select('#code-title')
+  // if(window.scrollY > 100) {
+  //   code.style.display = "none";
+  // } else {
+  //   code.style.display = "block";
+  // }
+
   /**
    * Toggle .header-scrolled class to #header when page is scrolled
    */
@@ -86,6 +93,7 @@
     const headerScrolled = () => {
       if (window.scrollY > 100) {
         selectHeader.classList.add('header-scrolled')
+
       } else {
         selectHeader.classList.remove('header-scrolled')
       }
@@ -130,7 +138,7 @@
   }, true)
 
   /**
-   * Scrool with ofset on links with a class name .scrollto
+   * Scrool with offset on links with a class name .scrollto
    */
   on('click', '.scrollto', function(e) {
     if (select(this.hash)) {
@@ -148,7 +156,7 @@
   }, true)
 
   /**
-   * Scroll with ofset on page load with hash links in the url
+   * Scroll with offset on page load with hash links in the url
    */
   window.addEventListener('load', () => {
     if (window.location.hash) {
