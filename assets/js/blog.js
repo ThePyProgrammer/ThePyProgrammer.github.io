@@ -2,12 +2,14 @@
 * Functions for Blog Management
 */
 
-requirejs(["functions"], function(util) {
-    //This function is called when scripts/helper/util.js is loaded.
-    //If util.js calls define(), then this function is not fired until
-    //util's dependencies have loaded, and the util argument will hold
-    //the module value for "helper/util".
-});
+var functions = require("functions")
+
+// requirejs(["functions"], function(util) {
+//     //This function is called when scripts/helper/util.js is loaded.
+//     //If util.js calls define(), then this function is not fired until
+//     //util's dependencies have loaded, and the util argument will hold
+//     //the module value for "helper/util".
+// });
 
 function manageDiv(item, index) {
   if(item) {
@@ -25,13 +27,13 @@ function removeText(item, index) {
 function extractContent(div, space = false) {
   var s = div.innerHTML
 
-  s = s.replace(/<sup>\\[\\d+\\]</sup>/gi, '')
+  s = s.replace(/<sup>\s*\[[\d,\s]+\]\s*<\/sup>/gi, '')
 
 
   var span = document.createElement('span')
   span.innerHTML = s
 
-  span.querySelectorAll(".references").forEach(removeText)
+  span.querySelectorAll(".references table h1 h2 h3 h4 h5 h6 .caption").forEach(removeText)
 
   if(space) {
     var children = span.querySelectorAll('*')
