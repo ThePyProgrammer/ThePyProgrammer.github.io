@@ -3,7 +3,7 @@
 import {strip} from "utils.js"
 
 
-const WORDS_PER_MIN = 275; // wpm
+const WORDS_PER_MIN = 200; // wpm
 
 const IMAGE_READ_TIME = 12; // in seconds
 
