@@ -63,8 +63,6 @@ function readTime(
   const { time: imageTime, count: imageCount } = imageReadTime(customImageTime, imageTags, string);
   const strippedString = strip(string);
   const {
-    characterCount,
-    otherLanguageTime,
     wordTime,
     wordCount,
   } = wordsReadTime(strippedString, customWordTime);
@@ -75,7 +73,5 @@ function readTime(
     wordTime,
     totalImages: imageCount,
     imageTime,
-    otherLanguageTimeCharacters: characterCount,
-    otherLanguageTime,
   };
 }
