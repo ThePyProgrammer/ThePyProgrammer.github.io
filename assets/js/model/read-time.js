@@ -1,6 +1,6 @@
 // Source: https://www.freecodecamp.org/news/how-to-more-accurately-estimate-read-time-for-medium-articles-in-javascript-fb563ff0282a/
 
-import {strip} from "utils.js"
+import { strip } from "../helpers/strip.js"
 
 
 const WORDS_PER_MIN = 200; // wpm
@@ -37,16 +37,9 @@ function wordsCount(string) {
 
 
   function wordsReadTime(string, wordsPerMin = WORDS_PER_MIN) {
-    const {
-      count: characterCount,
-      time: otherLanguageTime,
-      formattedString,
-    } = otherLanguageReadTime(string);
-    const wordCount = wordsCount(formattedString);
+    const wordCount = wordsCount(string);
     const wordTime = wordCount / wordsPerMin;
     return {
-      characterCount,
-      otherLanguageTime,
       wordTime,
       wordCount,
     };
