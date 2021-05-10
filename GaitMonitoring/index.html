@@ -24,6 +24,9 @@
       <link href="../assets/highlight/styles/atom-one-dark.css" rel="stylesheet">
       <script src="../assets/highlight/highlight.pack.js"></script>
       <script>hljs.highlightAll();</script>
+        <!-- data-main attribute tells require.js to load
+             scripts/main.js after require.js loads. -->
+        <script data-main="../assets/js/main" src="../assets/requirejs/require.js"></script>
    </head>
    <body>
       <!-- ======= Header ======= -->
@@ -34,32 +37,11 @@
             <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
             <nav id="navbar" class="navbar nav-menu">
                <ul>
-                  <li><a href="#about" class="nav-link scrollto">About</a></li>
+                  <li><a href="#content" class="nav-link scrollto">Content</a></li>
                   <li><a href="#services" class="nav-link scrollto">Skills</a></li>
-                  <li><a href="#resume" class="nav-link scrollto">Resume</a></li>
-                  <!-- <li><a href="#facts" class="nav-link scrollto">Facts</a></li> -->
+                  <li><a href="#references" class="nav-link scrollto">References</a></li>
                   <li><a href="#work" class="nav-link scrollto">Work</a></li>
-                  <!-- <li><a href="#blog" class="nav-link scrollto">Blog</a></li> -->
                   <li><a href="#contact" class="nav-link scrollto">Contact</a></li>
-                  <!-- <li class="dropdown">
-                     <a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
-                     <ul>
-                        <li><a href="#">Drop Down 1</a></li>
-                        <li class="dropdown">
-                           <a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
-                           <ul>
-                              <li><a href="#">Deep Drop Down 1</a></li>
-                              <li><a href="#">Deep Drop Down 2</a></li>
-                              <li><a href="#">Deep Drop Down 3</a></li>
-                              <li><a href="#">Deep Drop Down 4</a></li>
-                              <li><a href="#">Deep Drop Down 5</a></li>
-                           </ul>
-                        </li>
-                        <li><a href="#">Drop Down 2</a></li>
-                        <li><a href="#">Drop Down 3</a></li>
-                        <li><a href="#">Drop Down 4</a></li>
-                     </ul>
-                     </li> -->
                </ul>
                <!-- <i class="bi bi-list mobile-nav-toggle d-xl-none"></i> -->
                <i class="bi bi-list mobile-nav-toggle"></i>
@@ -88,8 +70,8 @@
       </div>
       <!-- End Hero Section -->
       <main id="main">
-         <!-- ======= About Section ======= -->
-         <section id="about" class="about-mf sect-pt4 route markdown-body">
+         <!-- ======= Content Section ======= -->
+         <section id="content" class="about-mf sect-pt4 route markdown-body">
             <div class="container">
                <div class="row">
                   <div class="col-sm-12">
@@ -449,6 +431,7 @@
                         <p>Furthermore, by connecting this system to earbuds and implementing biofeedback via audio, the system will also be able to mediate FOG. Another method involves connecting the system to an App such that notifications can be sent to the caregiver’s phone to alert them to a fall. This can be developed via Android App Development with Java/Kotlin or via frameworks like Kivy or Flutter for Python and Dart Programming respectively.</p>
                         <h2 id="acknowledgements">Acknowledgements</h2>
                         <p>We would like to thank Professor Arthur Tay, Mr Lim Yeow Heng and Mr Lim Teck Choow for their support and encouragement in this study. </p>
+                        <div class="references">
                         <h2 id="references">References</h2>
                         <p>[1] <a href="https://link.springer.com/article/10.1007%2Fs00441-004-0956-9">Braak, H., Ghebremedhin, E., Rüb, U., Bratzke, H., &amp; Del Tredici, K. (2004). Stages in the development of Parkinson’s disease-related pathology. <i>Cell and Tissue Research, 318</i>(1), 121–134. https://doi.org/10.1007/s00441-004-0956-9</a></p>
                         <p>[2] <a href="https://jnnp.bmj.com/content/jnnp/79/4/368.full.pdf">Jankovic, J. (2008). Parkinson’s disease: clinical features and diagnosis. <i>Journal of Neurology, Neurosurgery &amp; Psychiatry, 79</i>(4), 368–376. https://doi.org/10.1136/jnnp.2007.131045</a></p>
@@ -476,6 +459,7 @@
                         <p>[23] <a href="https://link.springer.com/chapter/10.1007%2F978-1-4842-4470-8_7">Bisong E. (2019) Google Colaboratory. In: Building Machine Learning and Deep Learning Models on Google Cloud Platform. <i>Apress, Berkeley, CA</i>. https://doi.org/10.1007/978-1-4842-4470-8_7</a></p>
                         <p>[24] <a href="https://github.com/Xtra-Computing/thundersvm/blob/master/thundersvm-full.pdf">Wen, Z., Shi, J., Li, Q., He, B., &amp; Chen, J. (2018). ThunderSVM: A Fast SVM Library on GPUs and CPUs, <i>Journal of Machine Learning Research, 19</i>, 797–801.</a></p>
                         <p>[25] <a href="https://github.com/nok/sklearn-porter">Morawiec, D. (n.d.). sklearn-porter - Transpile trained scikit-learn estimators to C, Java, JavaScript and others. https://github.com/nok/sklearn-porter</a></p>
+                      </div>
                      </div>
                      <div>
                   </div>
