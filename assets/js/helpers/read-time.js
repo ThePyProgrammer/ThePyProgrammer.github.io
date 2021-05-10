@@ -1,3 +1,5 @@
+// Source: https://www.freecodecamp.org/news/how-to-more-accurately-estimate-read-time-for-medium-articles-in-javascript-fb563ff0282a/
+
 import {strip} from "utils.js"
 
 
