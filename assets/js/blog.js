@@ -51,9 +51,9 @@ function wordCount(s) {
 }
 
 function timeToRead(wordCount) {
-  var minutes = Math.floor(wordCount / 200.0)
+  var minutes = Math.ceil(wordCount / 200.0)
   var seconds = wordCount % 200.0
-  return "Approximately a ${minutes}:${seconds} read"
+  return "Approximately a ${minutes} minute read"
 }
 
 function overallHelpfulResponse(div) {
