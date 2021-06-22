@@ -116,7 +116,7 @@
     val age: String,
     val school: String,
     val countryOfResidence: String,
-    val favouriteLanguage: String,
+    val favouriteLanguages: List&lt;String&gt;,
     val randomFact: String
 )
 
@@ -125,7 +125,7 @@ val Prannaya = Person(
     "15",
     "NUS High School",
     "Singapore",
-    "Python",
+    listOf("Python", "Kotlin"),
     "I enjoy reading comics."
 )</code></pre>
                                  </p>
@@ -352,7 +352,8 @@ val Prannaya = Person(
                            <h2 class="s-title">Research</h2>
                            <p class="s-description text-center">
                               I have been awarded a <a href="#ssefgold">Gold Award at the Singapore Science and Engineering Fair (SSEF)</a>,
-                              and a 2nd Prize for HCI's International Science Youth Forum (ISYF)
+                              a <a href="#isyf2nd">2nd Prize for HCI's International Science Youth Forum (ISYF)</a>
+                              and the <a href="#gystb">Third Prize for the Global Youth Science and Technology Bowl (GYSTB)</a>
                               for my project, <a href="#GaitMonitoring">Gait Monitoring and Analysis for Parkinson's Disease Patients</a>.
                            </p>
                         </div>
@@ -447,8 +448,8 @@ val Prannaya = Person(
                               </li>
                               <li>Deployed <a href="https://github.com/ThePyProgrammer/GaitAnalyzerAPI">a REST API using Flask and Google Cloud Run with Firebase Hosting, with Docker and Python.</a></li>
                               <li>Submitted for <a href="#isyf2nd">Hwa Chong Institution's International Science Youth Forum, where it was awarded the 2nd Prize for the Poster Showcase.</a></li>
-                              <li>Submitted for <a href="#ssefgold">Singapore Science and Engineering Fair, where it was awarded the Gold Award.</a></li>
-                              <li>Submitted for the Global Youth Science and Technology Bowl.</li>
+                              <li>Submitted for the <a href="#ssefgold">Singapore Science and Engineering Fair, where it was awarded the Gold Award.</a></li>
+                              <li>Submitted for the <a href="#gystb">Global Youth Science and Technology Bowl, and won Third Prize.</a></li>
                            </ul>
                         </div>
                         <div class="resume-item" id="face">
@@ -464,17 +465,25 @@ val Prannaya = Person(
                               <li>OpenCV and TensorFlow Keras, with the help of libraries such as Numpy, aided us in completing this project.</li>
                           </ul>
                         </div>
-                        <div class="resume-item" id="greenPass">
-                           <h4><a href="https://github.com/ThePyProgrammer/GreenPass">Green Pass</a></h4>
-                           <h5>Feb 2021 - Apr 2021</h5>
-                           <p><em>with Edden Chew Keyn Hantz</em></p>
+                        <div class="resume-item" id="pseudoSMP">
+                           <h4><a href="https://github.com/ThePyProgrammer/ThreeBody">Detecting Stable Three-Body Systems from Luminosity Data from the Kepler Space Probe</a></h4>
+                           <h5>May 2021 - Present</h5>
+                           <p><em>with Ernest Emmanuel Cheong Hao En, Vikram Ramanathan and Yap Yuan Xi</em></p>
                            <ul>
-                              <li>Similar to the Green Pass in Israel.</li>
-                              <li>Post-Vaccination Safe Management Measures for Vaccinated Individuals.</li>
-                              <li>Authentication Data stored in Cloud Firestore in NoSQL format.</li>
-                              <li>Profile Image customization with Firebase Storage backup.</li>
-                              <li>Shake to open Pass.</li>
-                           </ul>
+                              <li>We are to analyze Luminosity data and find sights of possible stable three-body systems</li>
+                              <li>I am to preprocess the data retrieved from <a href="https://exoplanetarchive.ipac.caltech.edu/docs/data.html">here</a> and find possible features.</li>
+                              <!-- <li></li> -->
+                          </ul>
+                        </div>
+                        <div class="resume-item" id="sutdRMP">
+                           <h4>Embodied AI for computational perception and understanding of spatial designs</h4>
+                           <h5>June 2021 - Present</h5>
+                           <p><em>with Zayan Karimi</em></p>
+                           <ul>
+                              <li>Train a deep neural network to learn the semantics of apartment interiors</li>
+                              <li>Extract relevant data while navigating within a virtual 3D simulator environment</li>
+                              <li>Gain a better understanding of spatial designs using AI</li>
+                          </ul>
                         </div>
                         <div class="resume-item" id="phytonUI">
                            <h4><a href="https://github.com/ThePyProgrammer/phytonElectric">Phyton Electrical Simulator</a></h4>
@@ -486,6 +495,18 @@ val Prannaya = Person(
                               <li>Data saved in the form of an XML file, specifically called EXML.</li>
                               <li>Nodal Analysis was used to determine electrical values.</li>
                               <li>Documentation was also provided.</li>
+                           </ul>
+                        </div>
+                        <div class="resume-item" id="greenPass">
+                           <h4><a href="https://github.com/ThePyProgrammer/GreenPass">Green Pass</a></h4>
+                           <h5>Feb 2021 - Apr 2021</h5>
+                           <p><em>with Edden Chew Keyn Hantz</em></p>
+                           <ul>
+                              <li>Similar to the Green Pass in Israel.</li>
+                              <li>Post-Vaccination Safe Management Measures for Vaccinated Individuals.</li>
+                              <li>Authentication Data stored in Cloud Firestore in NoSQL format.</li>
+                              <li>Profile Image customization with Firebase Storage backup.</li>
+                              <li>Shake to open Pass.</li>
                            </ul>
                         </div>
                         <div class="resume-item" id="prescriptio">
@@ -518,26 +539,6 @@ val Prannaya = Person(
                               <li>Analyzed Srinivasa Ramanujan's Magic Square.</li>
                               <li>Postulated possible symmetries and asymmetries where the square would or would not work.</li>
                               <li>Calculated all possible metrics using computer simulations.</li>
-                          </ul>
-                        </div>
-                        <div class="resume-item" id="pseudoSMP">
-                           <h4><a href="https://github.com/ThePyProgrammer/ThreeBody">Detecting Stable Three-Body Systems from Luminosity Data from the Kepler Space Probe</a></h4>
-                           <h5>May 2021 - Present</h5>
-                           <p><em>with Ernest Emmanuel Cheong Hao En, Vikram Ramanathan and Yap Yuan Xi</em></p>
-                           <ul>
-                              <li>We are to analyze Luminosity data and find sights of possible stable three-body systems</li>
-                              <li>I am to preprocess the data retrieved from <a href="https://exoplanetarchive.ipac.caltech.edu/docs/data.html">here</a> and find possible features.</li>
-                              <!-- <li></li> -->
-                          </ul>
-                        </div>
-                        <div class="resume-item" id="sutdRMP">
-                           <h4>Embodied AI for computational perception and understanding of spatial designs</h4>
-                           <h5>June 2021 - Present</h5>
-                           <p><em>with Zayan Karimi</em></p>
-                           <ul>
-                              <li>Train a deep neural network to learn the semantics of apartment interiors</li>
-                              <li>Extract relevant data while navigating within a virtual 3D simulator environment</li>
-                              <li>Gain a better understanding of spatial designs using AI</li>
                           </ul>
                         </div>
                      </div>
@@ -586,7 +587,7 @@ val Prannaya = Person(
                            </div>
                            <h3 class="resume-title">Awards</h3>
                            <div class="resume-item" id="ssefgold">
-                              <h4>Gold Award at the Singapore Science and Engineering Fair</h4>
+                              <h4>Gold Award at the Singapore Science and Engineering Fair (SSEF)</h4>
                               <h5>Apr 2021</h5>
                               <p><em><a href="https://www.science.edu.sg/">Science Centre, Singapore</a> with <a href="https://www.a-star.edu.sg/">A*STAR</a></em></p>
                               <p>
@@ -600,6 +601,24 @@ val Prannaya = Person(
                               <p><em><a href="https://buildingblocs.sg/2021/">Building BloCS 2021</a></em></p>
                               <p>
                                 Submitted <a href="#face">Facial-recognition AI for Communicating Emotions (FACE)</a>.
+                                <br><br>
+                              </p>
+                           </div>
+                           <div class="resume-item" id="gystb">
+                              <h4>Third Prize at the Global Science and Technology Bowl (GYSTB)</h4>
+                              <h5>20 Jun 2021</h5>
+                              <p><em><a href="https://ce.hkfyg.org.hk/gystb/">GYSTB Organising Team</a></em></p>
+                              <p>
+                                Submitted <a href="#GaitMonitoring">Gait Monitoring And Analysis for Parkinson's Disease Patients</a>.
+                                <br><br>
+                              </p>
+                           </div>
+                           <div class="resume-item" id="sphlgold">
+                              <h4>Gold Award at Singapore Physics League (SPhL)</h4>
+                              <h5>12 Jun 2021</h5>
+                              <p><em><a href="https://www.sgphysicsleague.org/">SPhL Organising Team 2021</a></em></p>
+                              <p>
+                                A team-based competition that took place on 12th June 2021.
                                 <br><br>
                               </p>
                            </div>
