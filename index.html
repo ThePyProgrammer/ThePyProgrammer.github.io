@@ -104,9 +104,11 @@
                                     </h5>
                                  </div>
                                  <p class="lead">
-                                    I am student at NUS High School. I am majoring with Honours in Computer Science,
-                                    and majoring in Mathematics, Physics and Chemistry.
-                                    I am a member of the Computer Science and Mathematics Interest Groups.
+                                    I am student at NUS High School. I am majoring in Computer Science, Mathematics, Physics and Chemistry,
+                                    with Honours in Computer Science and Engineering.
+                                    I am the Events In-Charge of the NUS High Computer Science Interest Group, AppVenture,
+                                    and the Club Manager of the NUS High Astronomy Club.
+                                    I am also a member of the NUS High Physics and Mathematics Interest Groups.
                                     I am also a member of the Physics Olympiad Team of NUSH (PhOTON).
                                     In my spare time, I learn many different concepts, like Deep Learning and Reinforcement Learning.
                                  </p>
@@ -123,7 +125,7 @@
 
 val Prannaya = Person(
     "Prannaya Gupta",
-    "15",
+    "16",
     "NUS High School",
     "Singapore",
     listOf("Python", "Kotlin"),
@@ -137,9 +139,9 @@ val Prannaya = Person(
                                        Skill
                                     </h5>
                                  </div>
-                                 <span>Python</span> <span class="pull-right">90%</span>
+                                 <span>Python</span> <span class="pull-right">95%</span>
                                  <div class="progress">
-                                    <div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                                    <div class="progress-bar" role="progressbar" style="width: 95%;" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
                                  </div>
                                  <span>Java</span> <span class="pull-right">80%</span>
                                  <div class="progress">
@@ -148,6 +150,10 @@ val Prannaya = Person(
                                  <span>Kotlin</span> <span class="pull-right">85%</span>
                                  <div class="progress">
                                     <div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                                 </div>
+                                 <span>JavaScript</span> <span class="pull-right">80%</span>
+                                 <div class="progress">
+                                    <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
                                  </div>
                                  <span>Matlab Octave</span> <span class="pull-right">75%</span>
                                  <div class="progress">
@@ -292,7 +298,8 @@ val Prannaya = Person(
                            <h2 class="s-title">Desktop App Development</h2>
                            <p class="s-description text-center">
                               I have learnt how to develop Desktop Apps using softwares such as JavaFX and Tkinter.
-                              Some projects include a <a href="#phytonUI">DC Circuit Simulator</a>
+                              Some projects include a <a href="#phytonElectric">DC Circuit Simulator</a>,
+                              a <a href="#trackerv2">Physics Autotracker Application</a>
                               and a fully-functional IDE for my own langugage, Viper.
                            </p>
                         </div>
@@ -304,11 +311,12 @@ val Prannaya = Person(
                            <span class="ico-circle"><i class="bi bi-bar-chart"></i></span>
                         </div>
                         <div class="service-content">
-                           <h2 class="s-title">Data Analysis</h2>
+                           <h2 class="s-title">Data Analytics</h2>
                            <p class="s-description text-center">
                               I am well-versed with Numpy, Pandas and Matplotlib,
                               and I have done many Data Analysis Projects, including
-                              <a href="#covidPrediction">a Covid-19 Prediction for Singapore using Time Series Analysis</a>.
+                              <a href="#covidPrediction">a Covid-19 Prediction for Singapore using Time Series Analysis</a>
+                              and a <a href="#lightPollution">an Analysis of The Global Light Pollution Standards</a>.
                            </p>
                         </div>
                      </div>
@@ -338,8 +346,9 @@ val Prannaya = Person(
                            <h2 class="s-title">Machine Learning and AI</h2>
                            <p class="s-description text-center">
                               I have taken the <a href="#machineLearning">Machine Learning course on Coursera by Stanford Online</a> with Matlab Octave.
-                              I am well-versed in using Scikit-Learn for Machine Learning.
-                              I have also done a project <a href="#GaitMonitoring">to analyse gait patterns for Parkinson's Disease Patients</a>.
+                              I am well-versed in using Scikit-Learn for Machine Learning and PyTorch/TensorFlow Keras for Deep Learning.
+                              I have also done projects <a href="#GaitMonitoring">to analyse gait patterns for Parkinson's Disease Patients</a>
+                              and <a href="#EmbodiedAI">to segment apartment interiors and exteriors using Transfer Learning</a>.
                            </p>
                         </div>
                      </div>
@@ -468,18 +477,8 @@ val Prannaya = Person(
                               <li>OpenCV and TensorFlow Keras, with the help of libraries such as Numpy, aided us in completing this project.</li>
                           </ul>
                         </div>
-                        <div class="resume-item" id="pseudoSMP">
-                           <h4><a href="https://github.com/ThePyProgrammer/ThreeBody">Detecting Stable Three-Body Systems from Luminosity Data from the Kepler Space Probe</a></h4>
-                           <h5>May 2021 - Present</h5>
-                           <p><em>with Ernest Emmanuel Cheong Hao En, Vikram Ramanathan and Yap Yuan Xi</em></p>
-                           <ul>
-                              <li>We are to analyze Luminosity data and find sights of possible stable three-body systems</li>
-                              <li>I am to preprocess the data retrieved from <a href="https://exoplanetarchive.ipac.caltech.edu/docs/data.html">here</a> and find possible features.</li>
-                              <!-- <li></li> -->
-                          </ul>
-                        </div>
-                        <div class="resume-item" id="sutdRMP">
-                           <h4>Embodied AI for computational perception and understanding of spatial designs</h4>
+                        <div class="resume-item" id="EmbodiedAI">
+                           <h4><a href="https://github.com/treeai/EmbodiedAI">Embodied AI for Computational Perception and Understanding of Spatial Designs</a></h4>
                            <h5>June 2021 - Present</h5>
                            <p><em>with Zayan Karimi</em></p>
                            <ul>
@@ -488,7 +487,17 @@ val Prannaya = Person(
                               <li>Gain a better understanding of spatial designs using AI</li>
                           </ul>
                         </div>
-                        <div class="resume-item" id="phytonUI">
+                        <div class="resume-item" id="ThreeBody">
+                           <h4><a href="https://github.com/three-body-analysis/ThreeBody">Detecting and Simulating Stable Three-Body Systems from Light Curve Data from the Kepler Space Probe</a></h4>
+                           <h5>May 2021 - Present</h5>
+                           <p><em>with Ernest Emmanuel Cheong Hao En, Vikram Ramanathan and Yap Yuan Xi</em></p>
+                           <ul>
+                              <li>We analyse a set of Light Curves derived from the Kepler and successor K2 Space Telescope Missions.</li>
+                              <li>I am to preprocess the data retrieved from <a href="https://exoplanetarchive.ipac.caltech.edu/docs/data.html">here</a> and find possible features.</li>
+                              <!-- <li></li> -->
+                          </ul>
+                        </div>
+                        <div class="resume-item" id="phytonElectric">
                            <h4><a href="https://github.com/ThePyProgrammer/phytonElectric">Phyton Electrical Simulator</a></h4>
                            <h5>Aug 2020 - Oct 2020</h5>
                            <p><em>Individual Project</em></p>
@@ -509,6 +518,18 @@ val Prannaya = Person(
                               <li>We trained a TensorFlow Keras CNN Model on the CIFAR-100 Dataset on Google Colab.</li>
                               <li>Full-Stack Deep Learning Model utilising the MEVN Stack with Tensorflow.js to access the trained model.</li>
                           </ul>
+                        </div>
+                        <div class="resume-item" id="trackerv2">
+                           <h4><a href="https://devpost.com/software/tracker-v2-0">Tracker V2.0</a></h4>
+                           <h5>Jan 2021</h5>
+                           <p><em>with Lim Li Xin Jed and Kabir Jain</em></p>
+                           <ul>
+                              <li>Physics Autotracker developed as means for Analysing Experimental Videos.</li>
+                              <li>IDE-like environment developed with Java and JavaFX.</li>
+                              <li>Data taken in the format of a MP4 video.</li>
+                              <li>Analysis done with OpenCV Methods with JavaCV.</li>
+                              <li>Submitted for Hack&Roll 2022.</li>
+                           </ul>
                         </div>
                         <div class="resume-item" id="dionysus">
                            <h4><a href="https://dionysus.prannaya.tech/">Dionysus - One Plugin, Endless Fun</a></h4>
